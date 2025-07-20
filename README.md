@@ -1,8 +1,6 @@
 # Mini File Manager
 
-Mini File Manager is a lightweight, single-file PHP web-based file manager that allows you to manage files and folders directly from your web browser. It provides essential functionalities like Browse, uploading, downloading, editing, deleting, creating, and renaming files and directories, all secured with a simple login.
-
-This project appears to be a compact and portable solution for basic server file management.
+Mini File Manager is a lightweight and portable single-file PHP-based web file manager. This application enables basic file and folder management (upload, download, edit, delete, create, rename) directly from the browser, complete with a simple login system for access security.
 
 ## Features
 
