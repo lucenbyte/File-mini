@@ -21,7 +21,5 @@ Mini File Manager is a lightweight and portable single-file PHP-based web file m
 * **File Information:** Displays file size, permissions (rwx format), and last modified date.
 * **Responsive UI:** Utilizes UIKit for a clean and responsive user interface.
 
-<div align="center">
-## Disclaimers!
-</div>
+<div align="center" style="font-weight: bold; font-size: 1.2em;">Disclaimers!</div>
 Be sure to change the default username and password as soon as possible. Any form of misuse or use for illegal activities is beyond my responsibility.
